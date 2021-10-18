@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Bio Data Form</title>
+<STYLE>
+    h1{
+        background-color: azure;
+        font-family: Ubuntu;
+        text-align: center;
+        padding: 25px;
+        font-size: 250%;
+    }
+select {
+    background-color: lavender;
+}
+
+
+</STYLE>
+</head>
+
+<body>
+    <h1>Bio <span style="color: bisque;">Data </span>Form</h1>
+
+<p>Please ensure to fill the form below with utmost attention. <span style="color: blueviolet;">Thank You.</span></p>
+
+<form autocomplete="on" target=_blank action="Navigation Menu.html">
+    <fieldset style="background-color: khaki;">
+        <legend>Personal Data</legend>
+    <label for="fname">Input First Name</label><br>
+    <input type="text" id="fname" name="fname" value="First Name"><br>
+    <label for="lname">Input Last Name</label><br>
+    <input type="text" id="lname" name="lname" value="Last Name"><br>
+    <label for="age">Input your age as of today</label><br>
+    <input type="number" id="age" number="age"><br>
+    
+
+<p>Choose a Gender</p>
+
+    <input type="radio" id="male" name="Gender" value="male">
+    <label for="male">Male</label><br>
+    <input type="radio" id="female" name="Gender" value="female">
+    <label for="female">Female</label><br>
+    <input type="radio" id="others" name="Gender" value="others"
+    <label for="others">Others</label>
+</fieldset>
+    <br>
+    <fieldset>
+        <legend>Car Choice</legend>
+    <label for="cars" style="background-color: lavender;">Select your Dream Car</label>
+    <select name="cars" id="cars" size="2">
+<option value="Toyota">Toyota</option>
+<option value="Nissan">Nissan</option>
+<option value="Mercedes">Mercedes</option>
+<option value="Lamborghini" selected>Lamborghini</option>
+    </select>
+</fieldset>
+<br>
+
+<fieldset>
+    <legend>Favourite Destination</legend>
+<label for="destination" style="background-color: lavender;">Select your Dream Holiday Destination</label>
+<input list="destination">
+<datalist id="destination">
+<option value="Paris">Paris</option>
+<option value="Hague">Hague</option>
+<option value="Maldives">Maldives</option>
+<option value="Vancouver">Vancouver</option>
+</datalist>
+</fieldset>
+<br>
+
+<label for="favcolor">Choose Your Favourite Colour</label><br>
+<input type="color" id="favcolor" name="favcolour"><br>
+
+<br>
+
+<label for="username">Username:</label><br>
+<input type="text" id="username" name="username" value="Username">
+<label for="pwd">Password:</label><br>
+<input type="password" id="pwd" name="password" value="***************">
+<br>
+
+<label for="birthday">When is your Birthday</label>
+<input type="date" id="birthday" name="birthday" min="1990-01-01" max="2005-12-31">
+<br>
+<label for="username">Username:</label><br>
+<input type="text" id="username" name="username" value="Username"><br>
+<label for="pwd">Password:</label><br>
+<input type="password" id="pwd" name="password" value="***************">
+
+<br><br>
+<label for="doc">Upload Document</label>
+<input type="file" id="doc" name="doc">
+<BR><br>
+
+    <textarea name="bio" id="bio" cols="30" rows="10"></textarea><br><br>
+
+    <button type="button" onclick="alert('Hello Our Valuable User!')">Click Me!</button>
+
+    <input type="submit" value="Submit Form">
+<br>
+<input type="reset">
+</form>
+</body>
+
+
+
+
+
+</html>

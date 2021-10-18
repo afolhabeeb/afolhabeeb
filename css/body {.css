@@ -1,0 +1,9 @@
+body {
+    background-image:image(media/style)
+}
+hi {
+    color: grey
+}
+p {
+    border: 2px blue
+}

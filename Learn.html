@@ -1,0 +1,122 @@
+<DOCTYPE html>
+<html>
+<head>
+    <style>
+        a:link, a:visited{
+            background-color:forestgreen; color: goldenrod; text-align: right;
+             text-decoration: none;display:flexbox;
+        }
+        a:hover, a:active{
+            background-color: grey;
+        }
+        table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}   
+th, td {
+    padding: 15px;
+}
+#tab_1{
+    width: 100%;
+    background-color: cornsilk;
+    border-collapse: collapse;
+}
+#tab_1 th{
+    text-align: left;
+}
+#tab_1 tr:nth-child(even){
+    background-color: darkgray;
+}
+
+#tab_1 tr:nth-child(odd){
+    background-color:darkslateblue;
+}
+
+#tab_1 div{
+    background-color: chartreuse;
+    color: crimson;
+    padding: 10px;
+}
+caption{
+    width: 200px;
+    padding:20px;
+    box-sizing: border-box;
+    background-color: rgba(145,35,218,0.6);
+    text-align: center;
+}
+#tab_1 caption{
+    text-align:center;
+}
+button{
+    color:dimgrey;
+}
+    </style>
+</head>
+<body>
+
+<h1> My First Heading</h1>
+
+<table style="width:100%;">
+<caption><b>EMPLOYEES AND DEPARTMENT</b></caption>
+    <tr>
+    <th>Name</th>
+    <th>Age</th>
+    <th>Department</th>
+</tr>
+<tr>
+    <td>Afolabi</td>
+    <td>29</td>
+    <td>Data Analysis</td>
+</tr>
+<tr>
+    <td>Kunmi</td>
+    <td>47</td>
+    <td>Sales</td>
+</tr>
+<tr>
+    <td>Marx</td>
+    <td>24</td>
+    <td>Management</td>
+</tr>
+
+</table>
+<br>
+<table id="tab_1">
+<div>    <caption><b>STUDENTS' DATABASE</b></caption>
+</div> 
+    <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Age</th>
+    </tr>
+    <tr>
+        <td>Afolabi</td>
+        <td>Ojelabi</td>
+        <td>29</td>
+        
+    </tr>
+    <tr>
+        <td>Kunmi</td>
+        <td>Adeyefa</td>
+        <td>47</td>
+
+    </tr>
+    <tr>
+        <td>Marx</td>
+        <td>Douglas</td>
+        <td>24</td>
+    </tr>
+    
+    </table>
+
+<p>My First paragraph</p>
+<a href="Heading.html">Click to Learn</a>
+<button onclick="Heading.html" href="Heading.html">Click to Learn</button>
+
+
+
+<video height="420" width="470" autoplay muted controls>
+<source src="media/Abiola Cute.mp4" type="video/mp4"
+</video>
+</body>
+</html>

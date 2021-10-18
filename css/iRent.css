@@ -1,0 +1,18 @@
+.land-page{
+    background-image: url(../media/hygeia.png);
+    height: 100vh;
+    /* width: 100%; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo{
+    background-color: thistle;
+    color: white;
+    font-size: 20px;
+}
+.nav-link:hover{
+    color: goldenrod
+}
+.icon-bar{
+    background: goldenrod;
+}

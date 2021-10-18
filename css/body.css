@@ -1,0 +1,16 @@
+body {
+    background-image:url(media/style.jpg);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    background-attachment: fixed;
+}
+h1 {
+    color: rgba(255, 255, 255)
+}
+p {
+    background-color:burlywood;
+    border: 2px ridge burlywood;
+    display:flexbox;
+    color: honeydew;
+    margin-block-end:30px
+}

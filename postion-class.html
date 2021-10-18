@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">  
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Positioning Sample</title>
+        <style>
+            img{
+                width: 100%;
+                height: 100%;
+                opacity: 0.4;
+            }
+            .container{
+                position: relative;
+            }
+            .bottomright{
+                position: absolute;
+                bottom: 10%;
+                right: 3%;
+                font-size: 20px;
+                
+            }
+            .topright{
+                position: absolute;
+                top: 10%;
+                right: 3%;
+                font-size: 20px;
+            }
+            topleft{
+                position: absolute;
+                top: 10%;
+                left: 3%;
+                font-size: 20px;
+            }
+            .bottomleft{
+                position: absolute;
+                bottom: 10%;
+                left: 3%;
+                font-size: 20px;
+            }
+            .centre{
+                position: absolute;
+                top: 50%;   
+                width: 100%;
+                text-align: center;
+                font-size: 18px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Position text in image</h1>
+        <div class="container">
+            <img src="media/Kodecamp.png" alt="Learner">
+            <p class="centre">button</p>
+            <p class="topright">Button</p>
+            <div class="bottomright">Button</div>
+            <p class="topleft">Button</p>
+            <p class="bottomleft">Button</p>
+        </div>
+    </body>
+</html>

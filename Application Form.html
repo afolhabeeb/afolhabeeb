@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Application for Permission to Date your Daughter</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" initial-scale=1.0>
+        <style>
+            body{
+                background-color: cornsilk;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+            div.container{
+                background-color: white;
+                border: 1px solid rgba(94, 87, 87, 0.3);
+                border-radius: 15px;
+                margin: 50px 150px;
+            }
+            fieldset{
+                border: 1px solid rgba(94, 87, 87, 0.3);
+            }
+            h2{
+                margin-top: 70px;
+                text-align: center;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+            p.note{
+                margin: 10px 30px;
+                color: rgb(59, 57, 57);
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+            p.gender{
+                margin: 10px 0;
+                color: rgb(59, 57, 57);
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
+            }
+            p.contact{
+                color: rgb(59, 57, 57);
+                margin-bottom: 0px;
+            }
+            p.essay{
+                color: rgb(59, 57, 57);
+                margin-top: 15px;
+                padding-top: 10px;
+                margin-bottom: 1px;
+            }
+            fieldset{
+                margin: 10px 40px;
+            }
+            legend{
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                font-weight: bold;
+            }
+            label{
+                color: rgb(59, 57, 57);
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+            input{
+                color: rgb(59, 57, 57);
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+            .send{
+        background-color: red;
+        color: white;
+        border:none;
+        text-align: center;
+        border-radius: 3px;
+        font-size: large;
+        width: 12em;
+        height: 1.7em;
+        margin-left: 40%;
+        margin-bottom: 40px;
+        margin-top: 10px;
+            }
+            .upload{
+                background-color: red;
+        color: white;
+        border:none;
+        text-align: center;
+        border-radius: 3px;
+        font-size: large;
+        width: 7em;
+        height: 1.7em;
+        margin-left: 2%;
+        margin-bottom: 40px;        
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h2>Application For Permission to Date Your Daughter</h2>
+            <p class="note"><b style="color: black;">Note:</b> Form is to be completed at least 21 days prior to date</p>
+            <form action="">  
+                    <Fieldset>
+                        <legend>Personal Details</legend>
+                    <label for="fname">Name: </label>
+                    <input type="text" id="fname" name="fname"   value="Enter full name here"><br>
+                        <br>
+                    <label for="add">Address:</label>
+                    <input type="text" id="add" name="add" value="Enter Address here"><br>
+                    <br>
+                    <label for="mail">E-mail:</label>
+                    <input type="email" id="mail" name="mail" value="Enter email here"><br>
+                    <br>
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" name="phone" id="phone" pattern="07075000020" placeholder="08144009100"><br>
+                        <br>
+                    <label for="iq">IQ:</label>
+                    <input type="number" id="iq" name="iq" value="Enter IQ here"><br><br>
+
+            <p class="gender">Gender</p>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label><br>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label><br>
+                    <input type="radio" name="gender" id="others">
+                    <label for="others">Other</label><br>
+                    <br>
+                    <label for="date">Date of Proposed Outing:</label>
+                    <input type="date" name="date" id="date">
+                       
+                    </Fieldset>
+                    <fieldset>
+                        <input type="checkbox" name="tattoo" id="tattoo">
+                        <label for="tatoo">I have tattoos and/or piercings</label><br>
+                        <br>
+                        <input type="checkbox" id="age_range" name="age_range">
+                        <label for="age_range">I am more than two years older than your Daughter</label><br>
+                        <br>
+                        <input type="checkbox" id="car" name="car">
+                        <label for="car">I own a Mercedes G-Wagon or EQ480 </label><br>
+                        <br>
+                        <input type="checkbox" id="job" name="job">
+                        <label for="job">I work full-time</label><br>
+                        <br>
+                        <input type="checkbox" id="parent" name="parent">
+                        <label for="parent">My parents are rich</label><br>
+                        <br>
+                        <input type="checkbox" id="location" name="location">
+                        <label for="location">The date is at a well lit location</label>
+                    </fieldset>
+                    <fieldset>
+                        <label for="politics">Political Affiliation:</label>
+                        <select name="political affil" id="political affil">                            
+                                <option value="apc">All Progressive Congress</option>
+                                <option value="pdp">Peoples Democratic Party</option>
+                                <option value="sdp">Social Democratic party</option>
+                                <option value="aac">Action Alliance Congress</option>
+                                <option value="no">No Political Affiliation</option>
+                        </select>
+                        <label for="edu">Education Level Completed:</label>
+                        <select name="edu" id="edu">
+                            <option value="no">None</option>    
+                            <option value="primary">Primary School Leaving</option>
+                            <option value="o'level">O'Level</option>
+                            <option value="Bsc">Bachelor's Degree</option>
+                            <option value="Msc">Master of Science</option>
+                        </select>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Essay Section</legend>
+                        <p class="essay">In 50 words or more explain why you want to date my Daughter</p><br>
+                        <textarea name="explain " id="explain" cols="60" rows="7" placeholder="Enter text here"></textarea><br>
+                    
+                        <p class="contact">Please upload the contact details of two referees</p>
+                        <textarea name="contact" id="contact" cols="60" rows="7" placeholder="Enter text here"></textarea>
+                       <br>
+                       <p>Upload Police Clearance Certificate, Bank Statement and Medical Certifiates here: 
+                           <input type="submit" class="upload" id="upload" name="upload" value="Attach Files"></p>
+                        
+                    </fieldset>
+                    <input type="submit" class="send" id="send" name="send" value="Send Your Application">
+                </form>
+        </div>
+    </body>
+</html>
